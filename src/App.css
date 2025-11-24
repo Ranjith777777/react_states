@@ -1,0 +1,100 @@
+/* Light Circle */
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.circle.off {
+  background-color: gray;
+}
+
+.circle.on {
+  background-color: yellow;
+}
+
+.btn-off,
+.btn-on {
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-off {
+  background-color: yellow;
+  color: black;
+}
+
+.btn-on {
+  background-color: gray;
+  color: white;
+}
+
+/* Images */
+.image-box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.team-img {
+  width: 250px;
+}
+
+.change-btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Actor */
+.content-box {
+  margin: 20px 0;
+}
+
+/* Shapes */
+.shape {
+  margin: 20px auto;
+  background-color: orange;
+}
+
+/* Circle */
+.shape-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Square */
+.shape-square {
+  width: 150px;
+  height: 150px;
+}
+
+/* Hexagon */
+.shape-hexagon {
+  width: 100px;
+  height: 55px;
+  position: relative;
+  background-color: orange;
+  margin: 40px auto;
+}
+
+.shape-hexagon:before,
+.shape-hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.shape-hexagon:before {
+  bottom: 100%;
+  border-bottom: 27px solid orange;
+}
+
+.shape-hexagon:after {
+  top: 100%;
+  border-top: 27px solid orange;
+}
